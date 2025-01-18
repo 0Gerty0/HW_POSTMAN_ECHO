@@ -17,6 +17,6 @@ class PostmanEchoTest {
                 .post("/post") // Конечная точка POST
                 .then()
                 .statusCode(200) // Проверяем, что статус ответа 200
-                .body("data", equalTo("incorrect data")); // Проверяем, что тело ответа совпадает
+                .body("data", equalTo("some data")); // Проверяем, что тело ответа совпадает
     }
 }
